@@ -26,4 +26,8 @@ def extract_invoice_data(filepath):
                 "phone": phone.group(1) if phone else "N/A",
                 "items": sku_qty_pairs
             }
+# TODO: extract address details and country spearately only for shipping address
+# TODO: iterate through all pdf pages in the file
+# TODO: extract sku, if not exist "unavailable"
+# TODO: extract email
 

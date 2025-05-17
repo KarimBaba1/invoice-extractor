@@ -26,3 +26,4 @@ with open('filling.csv', 'w', newline='') as csvfile:
 # Optional: Print the data for verification
 print(data)
 
+# TODO: create and match the new field that will be extracted from the invoice from extract.py
